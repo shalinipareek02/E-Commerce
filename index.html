@@ -3,13 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home- SSAR Spices</title>
+    <title>Home - SSAR Spices</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .navbar {
+            background-color: #c56e1ddb;
+        }
+        .navbar-brand, .nav-link {
+            color: #f3ecec !important;
+        }
+        .jumbotron {
+            background: url('spices-2.jpg') no-repeat center center;
+            background-size: cover;
+            color: #e55959;
+        }
+        .jumbotron h1 {
+            font-size: 3em;
+            font-weight: 500;
+        }
+        .jumbotron p {
+            font-size: 1.5em;
+        }
+        .container h2 {
+            margin-top: 2em;
+            color: #2178ad;
+        }
+        .product-description {
+            color: #777;
+            font-size: 0.9em;
+        }
+        .product-description, h3, p {
+            text-align: center;
+        }
+        .footer {
+            background-color: #c56e1ddb;
+            color: #e06262;
+            padding: 1em 0;
+        }
+        .modal-content {
+            border-radius: 0;
+        }
+        .btn-primary {
+            background-color: #2178ad;
+            border: none;
+        }
+    </style>
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">E-Commerce</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,7 +76,7 @@
     <!-- Header -->
     <header class="jumbotron text-center">
         <img src="spices 2.jpg" class="img-fluid" alt="Header Photo">
-        <h1>Welcome to our Herbal Spice Store</h1>
+        <h1>Welcome to Our Organic Spice Store</h1>
         <p>Discover the best products at unbeatable prices.</p>
     </header>
     
@@ -44,7 +91,7 @@
                 <p>Rs.120/100g</p>
             </div>
             <div class="col-md-4">
-                <img src="red chilli.jpg" class="img-fluid" alt="Red  Chilli Powder">
+                <img src="red chilli.jpg" class="img-fluid" alt="Red Chilli Powder">
                 <div class="product-description">Handmade, chemical-free with no preservatives.</div>
                 <h3>Red Chilli Powder</h3>
                 <p>Rs.50/100g</p>
@@ -59,7 +106,7 @@
     </div>
     
     <!-- Footer -->
-    <footer class="text-center py-4">
+    <footer class="footer text-center">
         <p>&copy; 2024 E-Commerce. All rights reserved.</p>
     </footer>
     
